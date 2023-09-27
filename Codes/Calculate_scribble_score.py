@@ -1,9 +1,8 @@
-# Question: 
-# Given a large text dataset (e.g., the complete works of Shakespeare), the task is to calculate the total Scrabble tile score of all the letters in the dataset. 
-# Scrabble scores should be calculated for each word, excluding punctuation, spaces, and numbers. 
-# The function `calculate_scrabble_score` should be utilized, which assigns scores based on individual letter scores. 
-# The final result should be the sum of scores for all words in the dataset. 
-# Can we efficiently achieve this using PySpark for distributed processing?
+# Question: Given a large text dataset (e.g., the complete works of Shakespeare), the task is to calculate the total
+# Scrabble tile score of all the letters in the dataset. Scrabble scores should be calculated for each word,
+# excluding punctuation, spaces, and numbers. The function `calculate_scrabble_score` should be utilized,
+# which assigns scores based on individual letter scores. The final result should be the sum of scores for all words
+# in the dataset. Can we efficiently achieve this using PySpark for distributed processing?
 
 
 import requests
